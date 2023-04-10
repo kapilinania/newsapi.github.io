@@ -15,7 +15,7 @@ let newsDataArr = [];
 //api query is here
 const API_KEY = "ada6a054fe0248cab98c81c24e3db24f";
 const HEADLINES_NEWS = "https://newsapi.org/v2/top-headlines?country=in&apiKey=ada6a054fe0248cab98c81c24e3db24f";
-const GENERAL_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey=ada6a054fe0248cab98c81c24e3db24f";
+const GENERAL_NEWS = "https://inshorts.deta.dev/news?category=all";
 const BUSINESS_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=ada6a054fe0248cab98c81c24e3db24f";
 const SPORTS_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=ada6a054fe0248cab98c81c24e3db24f";
 const ENTERTAINMENT_NEWS = "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=ada6a054fe0248cab98c81c24e3db24f";
@@ -27,7 +27,7 @@ const getWeather = (city)=>{
    
     cityName.innerHTML = city
 
-    fetch("https://newsapi.org/v2/everything?q="+city+"&apiKey=ada6a054fe0248cab98c81c24e3db24f" )
+    fetch("https://newsapi.org/v2/everything?q="+user+"&apiKey=ada6a054fe0248cab98c81c24e3db24f" )
     .then((value)=>{
         return value.json()
     })

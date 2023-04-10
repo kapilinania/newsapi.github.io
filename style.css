@@ -16,3 +16,8 @@
 .bit{
     display: none;
 }
+
+.color_chnage li a{
+    color: black;
+    font-size: 19px;
+}
