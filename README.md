@@ -1,2 +1,3 @@
 # newsapi.github.io
-website is herer
+link is herer
+https://kapilinania.github.io/newsapi.github.io/
