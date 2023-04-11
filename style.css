@@ -21,3 +21,21 @@
     color: black;
     font-size: 19px;
 }
+.font_family{
+    font-family: 'Times New Roman', Times, serif;
+}
+.kali_footer ul li{
+    list-style: none;
+    color: white;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+.icon_boot{
+    color: red;
+}
+.kapil{
+    border: 1px solid white;
+    font-size: 20px;
+    position: relative;
+    left: -8px;
+}
